@@ -1,0 +1,22 @@
+{
+  "name": "ResMenu",
+  "authors": [
+    "SabriRh <sabri.rhaimia@gmail.com>"
+  ],
+  "description": "plugin jQuery for responsives menus.",
+  "main": "index.html",
+  "keywords": [
+    "jQuery",
+    "responsive",
+    "menu"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
