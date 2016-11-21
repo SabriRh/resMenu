@@ -1,53 +1,51 @@
 @charset "UTF-8";
-
 #resMenuMobileContainer {
-position:absolute;
-top:0;
-right:0;
-bottom:0;
-left:0;
-background-color: rgba(21, 36, 46, 0.6);
-font-size:40px;
-padding:15%;
-text-align: center;
-overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(21, 36, 46, 0.6);
+    font-size: 40px;
+    padding: 15%;
+    padding-top: 20%;
+    text-align: center;
 }
 
 #resMenuMobileContainer a {
-display:block;
-color: white;
-text-decoration:none;
-padding:10%;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10%;
 }
 
 #resMenuMobileContainer:not(.active) {
-opacity:0!important;
+    opacity: 0!important;
 }
 
 #resMenuMobileButton:before {
-font-size:250%;
+    font-size: 250%;
 }
 
 #resMenuMobileButton {
-position:fixed;
-z-index:9999;
-width:50px;
-height:50px;
-border:1px solid #e4a000;
-background-color:#ccc;
-margin:5%;
+    position: fixed;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e4a000;
+    background-color: #ccc;
+    margin: 5%;
 }
 
-
-@media all and (max-width: 600px){
-#resMenuDesktopContainer{
-	display: none !important;
+@media all and (max-width: 600px) {
+    #resMenuDesktopContainer {
+        display: none !important;
+    }
 }
-}
 
-
-@media all and (min-width: 601px){
-#resMenuMobileContainer,#resMenuMobileButton{
-	display: none !important;
-}	
+@media all and (min-width: 601px) {
+    #resMenuMobileContainer,
+    #resMenuMobileButton {
+        display: none !important;
+    }
 }
